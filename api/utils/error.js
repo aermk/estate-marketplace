@@ -4,3 +4,5 @@ export const errorHandler = (statusCode, msg) => {
   error.message = msg;
   return error;
 };
+
+export default errorHandler;

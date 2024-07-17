@@ -9,7 +9,7 @@ dotenv.config();
 mongoose
   .connect(process.env.MONGO)
   .then(() => {
-    console.log("Connected to mongodb");
+    console.log("Connected to mongodb11");
   })
   .catch((err) => {
     console.log(err);
